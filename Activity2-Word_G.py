@@ -6,6 +6,7 @@ import string
 class WordGuessingGame:
 
     def __init__(self, max_lives=6):
+        #array
         self.words = [
             "python", "variable", "function", "iterator", "notebook",
             "pipeline", "dataset", "computer", "research", "analytics"
